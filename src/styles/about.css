@@ -47,7 +47,10 @@
   margin-bottom: 7.64px;
 }
 
-.section-header .section-header-about .section-header-about__founder .founder-name {
+.section-header
+  .section-header-about
+  .section-header-about__founder
+  .founder-name {
   font-weight: 500;
   font-size: var(--text-lg);
   margin-bottom: 2px;
@@ -60,7 +63,7 @@
 }
 
 .section-header .section-header__serum-img::after {
-  content: "";
+  content: '';
   position: absolute;
   right: -120px;
   bottom: -39px;
@@ -138,12 +141,12 @@
 /* Why you should choose Section */
 .section-should-choose {
   margin-top: 214px;
-  padding-top: 57px;
+  padding: 57px;
   position: relative;
 }
 
 .section-should-choose::before {
-  content: "";
+  content: '';
   position: absolute;
   display: block;
   inset: 0;
@@ -177,7 +180,7 @@
 }
 
 .section-should-choose .should-choose-header__hero::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   width: 401px;
@@ -211,11 +214,18 @@
   height: 65px;
 }
 
-.section-should-choose .should-choose-list-wrapper .list-choose .list-choose-detail {
+.section-should-choose
+  .should-choose-list-wrapper
+  .list-choose
+  .list-choose-detail {
   margin-top: 22px;
 }
 
-.section-should-choose .should-choose-list-wrapper .list-choose .list-choose-detail .list-choose-detail__title {
+.section-should-choose
+  .should-choose-list-wrapper
+  .list-choose
+  .list-choose-detail
+  .list-choose-detail__title {
   font-weight: 500;
   font-size: 20px;
   color: var(--primary-darken);

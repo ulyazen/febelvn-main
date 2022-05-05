@@ -104,7 +104,11 @@
   margin-bottom: 12px;
 }
 
-.section-what-will-you-get .will-get-boxes .will-get-box .will-get-box__detail span {
+.section-what-will-you-get
+  .will-get-boxes
+  .will-get-box
+  .will-get-box__detail
+  span {
   font-weight: 500;
   font-size: 17px;
   line-height: 28px;
@@ -112,7 +116,11 @@
   color: var(--primary-darken);
 }
 
-.section-what-will-you-get .will-get-boxes .will-get-box .will-get-box__detail p {
+.section-what-will-you-get
+  .will-get-boxes
+  .will-get-box
+  .will-get-box__detail
+  p {
   font-weight: 300;
   font-size: 14px;
   line-height: 28px;
@@ -141,9 +149,16 @@
 
 .section-how-it-works .how-it-works .how-it-work-box {
   display: flex;
+  text-align: center;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
+.section-how-it-works .how-it-works .how-it-work-box img {
+  max-width: 150px;
+  height: auto;
+}
 .section-how-it-works .how-it-works .how-it-work-box .how-it-work-box__detail {
   margin-top: 19px;
   display: flex;
@@ -152,14 +167,22 @@
   justify-content: center;
 }
 
-.section-how-it-works .how-it-works .how-it-work-box .how-it-work-box__detail span:first-child {
+.section-how-it-works
+  .how-it-works
+  .how-it-work-box
+  .how-it-work-box__detail
+  span:first-child {
   font-weight: 500;
   font-size: 28px;
   line-height: 28px;
   color: var(--primary-darken);
 }
 
-.section-how-it-works .how-it-works .how-it-work-box .how-it-work-box__detail span:last-child {
+.section-how-it-works
+  .how-it-works
+  .how-it-work-box
+  .how-it-work-box__detail
+  span:last-child {
   font-size: 16px;
   line-height: 28px;
   margin-top: 24px;
@@ -170,12 +193,15 @@
 
 .section-should-choose {
   margin-top: 259px;
-  padding-top: 57px;
+  padding: 57px;
   position: relative;
 }
 
+.section-should-choose .container {
+  padding: 0;
+}
 .section-should-choose::before {
-  content: "";
+  content: '';
   position: absolute;
   display: block;
   inset: 0;
@@ -209,7 +235,7 @@
 }
 
 .section-should-choose .should-choose-header__hero::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   width: 401px;
@@ -243,11 +269,18 @@
   height: 65px;
 }
 
-.section-should-choose .should-choose-list-wrapper .list-choose .list-choose-detail {
+.section-should-choose
+  .should-choose-list-wrapper
+  .list-choose
+  .list-choose-detail {
   margin-top: 22px;
 }
 
-.section-should-choose .should-choose-list-wrapper .list-choose .list-choose-detail .list-choose-detail__title {
+.section-should-choose
+  .should-choose-list-wrapper
+  .list-choose
+  .list-choose-detail
+  .list-choose-detail__title {
   font-weight: 500;
   font-size: 20px;
   color: var(--primary-darken);
