@@ -1,0 +1,225 @@
+/* Header Section */
+.section-header {
+  margin-top: 179.47px;
+  position: relative;
+}
+
+.section-header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-header .section-header-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 74px;
+}
+
+.section-header .section-header-about__tag-line {
+  font-size: var(--text-lg);
+  color: var(--primary-darken);
+  font-weight: 500;
+}
+
+.section-header .section-header-about .section-header-about__heading {
+  margin-top: 10px;
+  margin-bottom: 24px;
+}
+
+.section-header .section-header-about .section-header-about__desc {
+  width: 477px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 61px;
+}
+
+.section-header .section-header-about .section-header-about__founder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-header .section-header-about .section-header-about__founder img {
+  width: 172.3px;
+  height: 62.36px;
+  margin-bottom: 7.64px;
+}
+
+.section-header .section-header-about .section-header-about__founder .founder-name {
+  font-weight: 500;
+  font-size: var(--text-lg);
+  margin-bottom: 2px;
+}
+
+.section-header .section-header__serum-img {
+  align-self: flex-end;
+  margin-bottom: 70px;
+  position: relative;
+}
+
+.section-header .section-header__serum-img::after {
+  content: "";
+  position: absolute;
+  right: -120px;
+  bottom: -39px;
+  display: block;
+  width: 358px;
+  height: 141px;
+  border-radius: 70.5px 0px 0px 70.5px;
+  background-color: var(--primary);
+  z-index: -1;
+}
+
+.section-header .section-header__serum-img img {
+  width: 82px;
+  height: 247px;
+}
+
+.section-header .section-header__blur-circle--left {
+  left: -77px;
+  top: 46px;
+  background-color: var(--primary-light);
+}
+
+.section-header .section-header__blur-circle--center {
+  left: 259px;
+  top: -33px;
+}
+
+.section-header .section-header__blur-circle--right {
+  width: 473px;
+  height: 202px;
+  right: -39px;
+  bottom: -40px;
+}
+/* Header Section */
+
+/* Who we are Section */
+
+.section-who-we-are {
+  position: relative;
+  margin-top: 123px;
+}
+
+.section-who-we-are .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-who-we-are .who-we-are {
+  display: flex;
+  flex-direction: column;
+  margin-left: 44px;
+}
+
+.section-who-we-are .who-we-are .who-we-are__title {
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: 0.05em;
+  margin-bottom: 30px;
+}
+
+.section-who-we-are .who-we-are p:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.section-who-we-are .section-who-we-are__blur-circle--left {
+  width: 473px;
+  height: 202px;
+  top: -36px;
+  left: 16px;
+}
+
+/* Who we are Section */
+
+/* Why you should choose Section */
+.section-should-choose {
+  margin-top: 214px;
+  padding-top: 57px;
+  position: relative;
+}
+
+.section-should-choose::before {
+  content: "";
+  position: absolute;
+  display: block;
+  inset: 0;
+  height: 659px;
+  background: var(--primary-light);
+  z-index: -1;
+}
+
+.section-should-choose .should-choose-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-should-choose .should-choose-header__title {
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: 0.05em;
+  width: 500px;
+}
+
+.section-should-choose .should-choose-header__hero {
+  position: relative;
+  height: 220px;
+}
+
+.section-should-choose .should-choose-header__hero img {
+  position: relative;
+  top: -230px;
+  right: 174px;
+  z-index: -1;
+}
+
+.section-should-choose .should-choose-header__hero::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 401px;
+  height: 401px;
+  border-radius: 50%;
+  background: var(--primary);
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.section-should-choose .should-choose-list-wrapper {
+  background: #ffffff;
+  box-shadow: 0px 29px 152px rgba(0, 0, 0, 0.03);
+  border-radius: 25px;
+  padding: 60px 67px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 68px;
+  row-gap: 50px;
+  z-index: 2;
+}
+
+.section-should-choose .should-choose-list-wrapper .list-choose {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-should-choose .should-choose-list-wrapper .list-choose img {
+  width: 65px;
+  height: 65px;
+}
+
+.section-should-choose .should-choose-list-wrapper .list-choose .list-choose-detail {
+  margin-top: 22px;
+}
+
+.section-should-choose .should-choose-list-wrapper .list-choose .list-choose-detail .list-choose-detail__title {
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--primary-darken);
+  margin-bottom: 12px;
+}
+
+/* Why you should choose Section */

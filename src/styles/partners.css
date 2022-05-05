@@ -1,0 +1,317 @@
+/* Section Header */
+.section-header {
+  margin-top: 184px;
+  position: relative;
+}
+
+.section-header .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-header .container span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--primary-darken);
+}
+
+.section-header .section-header__heading {
+  font-size: 64px;
+  line-height: 77px;
+}
+
+.section-header .section-header__desc {
+  margin: 24px 0 32px 0;
+  width: 558px;
+  text-align: center;
+}
+
+.section-header .section-header__blur-circle--left {
+  bottom: 0;
+  left: 22px;
+}
+
+.section-header .section-header__blur-circle--right {
+  bottom: 0;
+  right: -119px;
+}
+
+/* Section Header */
+
+/* What Will you Get Section */
+
+.section-what-will-you-get {
+  position: relative;
+  margin-top: 139px;
+}
+
+.section-what-will-you-get .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-what-will-you-get .section-what-will-you-get__title-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.section-what-will-you-get .section-what-will-you-get__title-wrapper .title {
+  font-size: 60px;
+  line-height: 72px;
+  margin-top: 20px;
+}
+
+.section-what-will-you-get .section-what-will-you-get__title-wrapper .desc {
+  width: 526px;
+  margin-top: 32px;
+}
+
+.section-what-will-you-get .section-what-will-you-get__blur-circle--center {
+  left: calc(50% - 200px);
+  top: 87px;
+}
+
+.section-what-will-you-get .section-what-will-you-get__blur-circle--right {
+  bottom: -75px;
+  right: 0;
+}
+
+.section-what-will-you-get .will-get-boxes {
+  position: absolute;
+  bottom: 23px;
+  width: 702px;
+  height: 250px;
+  box-shadow: 0px 38px 108px rgba(0, 0, 0, 0.04);
+  border-radius: 40px 0px 55px;
+  background: white;
+  padding: 40px 50px;
+  display: flex;
+  gap: 50px;
+}
+
+.section-what-will-you-get .will-get-boxes .will-get-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-what-will-you-get .will-get-boxes .will-get-box img {
+  width: 54px;
+  height: 53px;
+  margin-bottom: 12px;
+}
+
+.section-what-will-you-get .will-get-boxes .will-get-box .will-get-box__detail span {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 28px;
+  margin-bottom: 8px;
+  color: var(--primary-darken);
+}
+
+.section-what-will-you-get .will-get-boxes .will-get-box .will-get-box__detail p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 28px;
+}
+/* What Will you Get Section */
+
+/* How it works section */
+
+.section-how-it-works {
+  margin-top: 120px;
+  position: relative;
+}
+
+.section-how-it-works .title {
+  font-size: 60px;
+  line-height: 72px;
+  text-align: center;
+}
+
+.section-how-it-works .how-it-works {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 180px;
+}
+
+.section-how-it-works .how-it-works .how-it-work-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-how-it-works .how-it-works .how-it-work-box .how-it-work-box__detail {
+  margin-top: 19px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-how-it-works .how-it-works .how-it-work-box .how-it-work-box__detail span:first-child {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 28px;
+  color: var(--primary-darken);
+}
+
+.section-how-it-works .how-it-works .how-it-work-box .how-it-work-box__detail span:last-child {
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 24px;
+}
+/* How it works section */
+
+/* Why you should choose Section */
+
+.section-should-choose {
+  margin-top: 259px;
+  padding-top: 57px;
+  position: relative;
+}
+
+.section-should-choose::before {
+  content: "";
+  position: absolute;
+  display: block;
+  inset: 0;
+  height: 659px;
+  background: var(--primary-light);
+  z-index: -1;
+}
+
+.section-should-choose .should-choose-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-should-choose .should-choose-header__title {
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: 0.05em;
+  width: 500px;
+}
+
+.section-should-choose .should-choose-header__hero {
+  position: relative;
+  height: 220px;
+}
+
+.section-should-choose .should-choose-header__hero img {
+  position: relative;
+  top: -230px;
+  right: 174px;
+  z-index: -1;
+}
+
+.section-should-choose .should-choose-header__hero::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 401px;
+  height: 401px;
+  border-radius: 50%;
+  background: var(--primary);
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.section-should-choose .should-choose-list-wrapper {
+  background: #ffffff;
+  box-shadow: 0px 29px 152px rgba(0, 0, 0, 0.03);
+  border-radius: 25px;
+  padding: 60px 67px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 68px;
+  row-gap: 50px;
+  z-index: 2;
+}
+
+.section-should-choose .should-choose-list-wrapper .list-choose {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-should-choose .should-choose-list-wrapper .list-choose img {
+  width: 65px;
+  height: 65px;
+}
+
+.section-should-choose .should-choose-list-wrapper .list-choose .list-choose-detail {
+  margin-top: 22px;
+}
+
+.section-should-choose .should-choose-list-wrapper .list-choose .list-choose-detail .list-choose-detail__title {
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--primary-darken);
+  margin-bottom: 12px;
+}
+
+/* Why you should choose Section */
+
+/* Partner With Us sECTION */
+.section-partner-with-us {
+  position: relative;
+  margin: 138px 120px 0 120px;
+  width: auto;
+}
+
+.section-partner-with-us .container {
+  background: white;
+  box-shadow: 0px 29px 152px rgba(0, 0, 0, 0.03);
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px;
+  height: 417px;
+  position: relative;
+}
+
+.section-partner-with-us .section-partner-with-us__title-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-partner-with-us .section-partner-with-us__title-wrapper .title {
+  font-size: 60px;
+  line-height: 72px;
+}
+
+.section-partner-with-us .section-partner-with-us__title-wrapper .desc {
+  width: 606px;
+  margin: 32px 0;
+}
+
+.section-partner-with-us .section-partner-with-us__title-wrapper .btn-primary {
+  width: max-content;
+}
+
+.section-partner-with-us .hero img {
+  width: 141px;
+  height: 427px;
+}
+
+.section-partner-with-us .hero {
+  position: absolute;
+  right: 111px;
+  top: -62px;
+}
+
+.section-partner-with-us .section-partner-with-us__blur-circle--left {
+  left: -63px;
+  bottom: 0;
+}
+
+.section-partner-with-us .section-partner-with-us__blur-circle--right {
+  right: 0;
+  top: -44px;
+}
+/* Partner With Us sECTION */

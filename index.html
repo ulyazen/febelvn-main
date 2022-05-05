@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="shortcut icon"
+      href="src/assets/images/logo.svg"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="src/styles/index.css" />
+    <link rel="stylesheet" href="src/styles/homepage.css" />
+
+    <script
+      src="https://kit.fontawesome.com/a4d7e7b72d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="module" src="src/components/index.js" async></script>
+    <title>FebElvn</title>
+  </head>
+  <body>
+    <navbar-main></navbar-main>
+    <main class="main-homepage">
+      <section class="section section-header">
+        <div class="container">
+          <div>
+            <span class="section-header__tag-line">100% CLINICALLY TESTED</span>
+            <h1 class="heading heading-section-header">
+              Effective & concentrated Skincare
+            </h1>
+            <p class="section-header__desc">
+              Products with natural ingredients are usually better for your
+              skin. They are less likely to cause a negative reaction, and they
+              often have fewer side effects.
+            </p>
+
+            <div class="section-header-buttons">
+              <button class="btn btn-primary">Learn More</button>
+              <a class="see-product" href="shop.html">See Product</a>
+            </div>
+          </div>
+
+          <img
+            class="hero"
+            src="src/assets/images/hero-header-homepage.png"
+            alt="hero"
+          />
+        </div>
+
+        <div class="blur-circle section-header__blur-circle--left"></div>
+        <div class="blur-circle section-header__blur-circle--center"></div>
+        <div class="blur-circle section-header__blur-circle--right"></div>
+      </section>
+
+      <section class="section section-products">
+        <div class="container">
+          <h2 class="section-products__title">Our best Product</h2>
+          <div class="products">
+            <div class="card-product">
+              <div
+                class="card-product__thumbnail"
+                data-tilt
+                data-tilt-perspective="500"
+                data-tilt-glare
+                data-tilt-max-glare="0.5"
+              >
+                <img src="src/assets/images/retinol-serum1.png" alt="serum" />
+              </div>
+              <div class="card-product__detail">
+                <span class="product-name">Retinol Face Serum</span>
+              </div>
+            </div>
+            <div class="card-product">
+              <div
+                class="card-product__thumbnail"
+                data-tilt
+                data-tilt-perspective="500"
+                data-tilt-glare
+                data-tilt-max-glare="0.5"
+              >
+                <img src="src/assets/images/niacinamide1.png" alt="serum" />
+              </div>
+              <div class="card-product__detail">
+                <span class="product-name">Niacinamide Serum</span>
+              </div>
+            </div>
+            <div class="card-product">
+              <div
+                class="card-product__thumbnail"
+                data-tilt
+                data-tilt-perspective="500"
+                data-tilt-glare
+                data-tilt-max-glare="0.5"
+              >
+                <img src="src/assets/images/green-tea1.png" alt="serum" />
+              </div>
+              <div class="card-product__detail">
+                <span class="product-name">Green Tea Serum</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="blur-circle section-products__blur-circle--left"></div>
+        <div class="blur-circle section-products__blur-circle--center"></div>
+      </section>
+
+      <section class="section section-benefits">
+        <div class="container">
+          <div class="section-benefits__title-wrapper">
+            <h3 class="section-benefits__title">
+              <span>Our Benefits</span>
+              <span>Best for you</span>
+            </h3>
+            <img src="src/assets/images/yor-skin.png" alt="your-skin" />
+          </div>
+
+          <div class="hero">
+            <img src="src/assets/images/retinol-serum2.png" alt="serum" />
+          </div>
+
+          <ul class="section-benefits__list">
+            <div class="benefit-list">
+              <span class="benefit-list__title">Best Ingredients</span>
+              <p>
+                Vitamin -E ,Retinol , Grape Seed Extract, Mix Fruit Extract,
+                Hyaluronic Acid , CICA
+              </p>
+            </div>
+            <div class="benefit-list">
+              <span class="benefit-list__title">Free From</span>
+              <p>Sulphate , Silicones , Parabens , Essential Oils</p>
+            </div>
+            <div class="benefit-list">
+              <span class="benefit-list__title">Tested</span>
+              <p>Dermatologist Tested , Safe-to-Use, Non-Irritant</p>
+            </div>
+          </ul>
+        </div>
+
+        <div class="blur-circle section-benefits__blur-circle--center"></div>
+      </section>
+
+      <section class="section section-faq">
+        <div class="container">
+          <div>
+            <h4 class="section-faq__title">Frequently Asked Questions</h4>
+            <ul class="section-faq__list-wrapper">
+              <li class="section-faq__list faq-list">
+                <div class="faq-question">
+                  <span
+                    >Why should I prefer FebElvn over other Beauty products ?
+                  </span>
+                  <i class="fa fa-plus"></i>
+                </div>
+                <div class="faq-answer">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                  placeat a hic molestiae necessitatibus molestias amet
+                  temporibus culpa, qui, possimus iste, distinctio recusandae
+                  esse quae optio omnis debitis ipsa! Voluptates!
+                </div>
+              </li>
+              <li class="section-faq__list faq-list">
+                <div class="faq-question">
+                  <span
+                    >Do you use sulfates or parabens in your products?
+                  </span>
+                  <i class="fa fa-plus"></i>
+                </div>
+                <p class="faq-answer">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                  placeat a hic molestiae necessitatibus molestias amet
+                  temporibus culpa, qui, possimus iste, distinctio recusandae
+                  esse quae optio omnis debitis ipsa! Voluptates!
+                </p>
+              </li>
+              <li class="section-faq__list faq-list">
+                <div class="faq-question">
+                  <span>For how long are the products safe to use? </span>
+                  <i class="fa fa-plus"></i>
+                </div>
+                <p class="faq-answer">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                  placeat a hic molestiae necessitatibus molestias amet
+                  temporibus culpa, qui, possimus iste, distinctio recusandae
+                  esse quae optio omnis debitis ipsa! Voluptates!
+                </p>
+              </li>
+              <li class="section-faq__list faq-list">
+                <div class="faq-question">
+                  <span>Are the fragrances used safe to use? </span>
+                  <i class="fa fa-plus"></i>
+                </div>
+                <p class="faq-answer">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                  placeat a hic molestiae necessitatibus molestias amet
+                  temporibus culpa, qui, possimus iste, distinctio recusandae
+                  esse quae optio omnis debitis ipsa! Voluptates!
+                </p>
+              </li>
+              <li class="section-faq__list faq-list">
+                <div class="faq-question">
+                  <span>Are your products suitable for sensitive skin? </span>
+                  <i class="fa fa-plus"></i>
+                </div>
+                <p class="faq-answer">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                  placeat a hic molestiae necessitatibus molestias amet
+                  temporibus culpa, qui, possimus iste, distinctio recusandae
+                  esse quae optio omnis debitis ipsa! Voluptates!
+                </p>
+              </li>
+            </ul>
+          </div>
+
+          <img src="src/assets/images/faq-hero.png" alt="serum" />
+        </div>
+
+        <div class="blur-circle section-faq__blur-circle--center"></div>
+      </section>
+      <footer-main></footer-main>
+    </main>
+
+    <script src="src/js/tilt.js"></script>
+    <script src="src/js/faq.js" defer></script>
+  </body>
+</html>
