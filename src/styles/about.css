@@ -29,7 +29,7 @@
 }
 
 .section-header .section-header-about .section-header-about__desc {
-  width: 477px;
+  width: 50%;
   font-weight: 300;
   text-align: center;
   margin-bottom: 61px;
@@ -164,7 +164,7 @@
   font-size: 60px;
   line-height: 72px;
   letter-spacing: 0.05em;
-  width: 500px;
+  width: 50%;
 }
 
 .section-should-choose .should-choose-header__hero {
@@ -202,6 +202,7 @@
   column-gap: 68px;
   row-gap: 50px;
   z-index: 2;
+  grid-auto-flow: row;
 }
 
 .section-should-choose .should-choose-list-wrapper .list-choose {
@@ -233,3 +234,70 @@
 }
 
 /* Why you should choose Section */
+
+@media only screen and (max-width: 1024px) {
+  .section-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  .image {
+    width: 100%;
+  }
+  .section-who-we-are .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .section-should-choose .should-choose-list-wrapper {
+    background: #ffffff;
+    box-shadow: 0px 29px 152px rgba(0, 0, 0, 0.03);
+    border-radius: 25px;
+    padding: 60px 67px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 68px;
+    row-gap: 50px;
+    z-index: 2;
+    grid-auto-flow: row;
+  }
+
+  .section-should-choose .should-choose-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .section-should-choose .should-choose-header__title {
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    width: 100%;
+  }
+
+  .section-header .section-header-about .section-header-about__desc {
+    width: 100%;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 61px;
+  }
+
+  .section-should-choose .should-choose-header__hero img {
+    position: relative;
+    top: -230px;
+    right: 0px;
+    z-index: -1;
+  }
+
+  .section-should-choose {
+    margin-top: 214px;
+    padding: 8%;
+    position: relative;
+  }
+
+  .section-should-choose .container {
+    padding: 0 0px;
+  }
+}

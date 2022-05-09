@@ -250,12 +250,11 @@ button.btn-primary {
   position: relative;
   border: 1px solid #cccccc;
   border-radius: 7px;
-
   padding-top: 8px;
   padding-bottom: 8px;
   margin: 4px;
   box-sizing: border-box;
-  padding-left: 48px;
+  padding-left: 40px;
 }
 
 .input-group .input {
@@ -266,10 +265,12 @@ button.btn-primary {
 }
 
 .input-group i {
-  left: 0;
-  padding: 0px 10px;
+  text-align: left;
+  left: 1%;
+  padding: 2px 0px 0px 10px;
   position: absolute;
   margin: 4px;
+  top: 9px;
 }
 
 .input.input-solid {
@@ -302,7 +303,7 @@ button.btn-primary {
   right: 120px;
   left: 120px;
   width: auto;
-  height: 0.5px;
+  height: 1px;
   background-color: var(--black);
 }
 
@@ -319,7 +320,7 @@ button.btn-primary {
 }
 
 .navbar-main__links .link:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 32px;
 }
 
 .navbar-main__links a {
@@ -353,7 +354,7 @@ button.btn-primary {
 .footer {
   margin-top: 130px;
   background: var(--black);
-  padding: 45px 120px 46px 120px;
+  padding: 45px 120px 45px 120px;
   color: white;
   display: flex;
   flex-direction: column;
@@ -455,7 +456,21 @@ button.btn-primary {
 .link_mobile {
   display: none;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1024px) {
+  .navbar-main {
+    height: 103px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    backdrop-filter: blur(5px);
+    z-index: 9999;
+  }
+
   .navbar-main__links {
     align-items: center;
     position: fixed;
@@ -469,7 +484,9 @@ button.btn-primary {
     transition: 0.3s;
     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
   }
-
+  .navbar-main__links .link:not(:last-child) {
+    margin-right: 0px;
+  }
   .navbar-main__links.active {
     left: 0;
   }
@@ -496,5 +513,24 @@ button.btn-primary {
 
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .footer {
+    margin-top: 130px;
+    background: var(--black);
+    padding: 35px 45px 45px 35px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer div:first-child {
+    margin-right: 0px;
+  }
+  .footer .footer-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    flex-direction: column;
   }
 }

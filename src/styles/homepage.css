@@ -7,8 +7,6 @@
 .section-header .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  position: relative;
 }
 
 .section-header .section-header__desc {
@@ -122,7 +120,7 @@
 }
 
 .section-products .card-product .card-product__thumbnail::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   left: 0;
@@ -168,7 +166,6 @@
 .section-benefits .section-benefits__title {
   display: flex;
   flex-direction: column;
-  width: 348px;
 }
 
 .section-benefits .section-benefits__title span {
@@ -195,11 +192,11 @@
 }
 
 .section-benefits .hero::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   inset: 0;
-  background: url("../assets/images/serum-benefits-bg.png") no-repeat;
+  background: url('../assets/images/serum-benefits-bg.png') no-repeat;
   background-size: contain;
   z-index: -1;
 }
@@ -266,7 +263,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  width: 589px;
+  width: 90%;
   font-weight: 300;
 }
 
@@ -280,3 +277,63 @@
 }
 
 /* Faq Section */
+@media only screen and (max-width: 1024px) {
+  .section-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .section-products .products {
+    margin-top: 38px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .section-benefits .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    flex-direction: column;
+  }
+
+  .section-faq .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  .section-products .container {
+    max-width: 1336px;
+    padding: 0 120px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-products .card-product:not(:last-child) {
+    margin-right: 0px;
+  }
+
+  .section-products .card-product .card-product__thumbnail {
+    width: 200px;
+    height: 348px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+  }
+  .section-benefits .section-benefits__title span {
+    font-size: 48px;
+    line-height: 36px;
+    font-weight: 400;
+    width: max-content;
+  }
+
+  .hero {
+    width: 100%;
+  }
+}
