@@ -27,8 +27,8 @@ class Footer extends HTMLElement {
             <span class="footer-list__title">About Us</span>
             <ul class="footer-links">
               <li><a href="about.html">About Febevln</a></li>
-              <li><a href="">Privacy Policy</a></li>
-              <li><a href="">Term & Conditions</a></li>
+              <li><a href="privacy.html">Privacy Policy</a></li>
+              <li><a href="term.html">Term & Conditions</a></li>
             </ul>
           </div>
 

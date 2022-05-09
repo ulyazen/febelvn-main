@@ -1,0 +1,151 @@
+/* Section Header */
+.section-header {
+  margin-top: 184px;
+  position: relative;
+}
+
+.section-header .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0px;
+}
+
+.section-header .container span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--primary-darken);
+}
+
+.section-header .section-header__heading {
+  font-size: 64px;
+  line-height: 77px;
+}
+
+.section-header .section-header__desc {
+  margin: 24px 0 32px 0;
+  width: 558px;
+  text-align: center;
+}
+
+.section-header .section-header__blur-circle--left {
+  bottom: 0;
+  left: 22px;
+}
+
+.section-header .section-header__blur-circle--right {
+  bottom: 0;
+  right: -119px;
+}
+
+/* Section content */
+.section-content {
+  margin-top: 50px;
+  position: relative;
+}
+
+.section-content .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0px;
+}
+
+.section-content .container span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--primary-darken);
+}
+
+.section-content .section-content__heading {
+  font-size: 64px;
+  line-height: 77px;
+}
+
+.section-content .section-content__desc {
+  margin: 24px 0 32px 0;
+  width: fit-content;
+  text-align: center;
+}
+
+.section-content .section-content__officer {
+  margin: 0px 0 10px 0;
+  width: 558px;
+  text-align: center;
+}
+
+.section-content .section-content__blur-circle--left {
+  bottom: 0;
+  left: 22px;
+}
+
+.section-content .section-content__blur-circle--right {
+  bottom: 0;
+  right: -119px;
+}
+
+/* Why you should choose Section */
+
+/* Partner With Us sECTION */
+.section-partner-with-us {
+  position: relative;
+  margin: 138px 120px 0 120px;
+  width: auto;
+}
+
+.section-partner-with-us .container {
+  background: white;
+  box-shadow: 0px 29px 152px rgba(0, 0, 0, 0.03);
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px;
+  height: 417px;
+  position: relative;
+}
+
+.section-partner-with-us .section-partner-with-us__title-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-partner-with-us .section-partner-with-us__title-wrapper .title {
+  font-size: 60px;
+  line-height: 72px;
+}
+
+.section-partner-with-us .section-partner-with-us__title-wrapper .desc {
+  width: 606px;
+  margin: 32px 0;
+}
+
+.section-partner-with-us .section-partner-with-us__title-wrapper .btn-primary {
+  width: max-content;
+}
+
+.section-partner-with-us .hero img {
+  width: 141px;
+  height: 427px;
+}
+
+.section-partner-with-us .hero {
+  position: absolute;
+  right: 111px;
+  top: -62px;
+}
+
+.section-partner-with-us .section-partner-with-us__blur-circle--left {
+  left: -63px;
+  bottom: 0;
+}
+
+.section-partner-with-us .section-partner-with-us__blur-circle--right {
+  right: 0;
+  top: -44px;
+}
+/* Partner With Us sECTION */
