@@ -456,19 +456,34 @@ button.btn-primary {
 .link_mobile {
   display: none;
 }
+
+/* Section Testimonial */
+
 @media only screen and (max-width: 1024px) {
   .navbar-main {
     height: 103px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 80px;
+    padding: 0px 30px;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     backdrop-filter: blur(5px);
     z-index: 9999;
+  }
+
+  .navbar-main::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    left: 35px;
+    width: auto;
+    height: 1px;
+    background-color: var(--black);
   }
 
   .navbar-main__links {

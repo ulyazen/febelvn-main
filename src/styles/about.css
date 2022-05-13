@@ -236,6 +236,11 @@
 /* Why you should choose Section */
 
 @media only screen and (max-width: 1024px) {
+  .section .container {
+    max-width: 1336px;
+    padding: 0 30px;
+    margin: auto;
+  }
   .section-header .container {
     display: flex;
     justify-content: space-between;
