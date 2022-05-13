@@ -78,6 +78,7 @@
 .section-header .section-header__serum-img img {
   width: 82px;
   height: 247px;
+  margin-right: 100px;
 }
 
 .section-header .section-header__blur-circle--left {
@@ -236,6 +237,26 @@
 /* Why you should choose Section */
 
 @media only screen and (max-width: 1024px) {
+  .section-header {
+    margin-top: 87.47px;
+    position: relative;
+  }
+  .section-header .section-header__serum-img::after {
+    content: '';
+    position: absolute;
+    right: -30px;
+    bottom: -39px;
+    display: block;
+    width: 358px;
+    height: 141px;
+    border-radius: 70.5px 0px 0px 70.5px;
+    background-color: var(--primary);
+    z-index: -1;
+  }
+
+  .md-none {
+    display: none;
+  }
   .section .container {
     max-width: 1336px;
     padding: 0 30px;
@@ -291,7 +312,7 @@
 
   .section-should-choose .should-choose-header__hero img {
     position: relative;
-    top: -230px;
+    top: 45px;
     right: 0px;
     z-index: -1;
   }
@@ -304,5 +325,32 @@
 
   .section-should-choose .container {
     padding: 0 0px;
+  }
+
+  .section-who-we-are .who-we-are {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+
+  .section-should-choose::before {
+    content: '';
+    position: absolute;
+    display: block;
+    inset: 0;
+    height: 1400px;
+    background: var(--primary-light);
+    z-index: -1;
+  }
+
+  .section-should-choose .should-choose-header__hero {
+    position: relative;
+    height: 540px;
+  }
+
+  .section-header .section-header__serum-img img {
+    width: 82px;
+    height: 247px;
+    margin-right: 180px;
   }
 }

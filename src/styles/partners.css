@@ -25,7 +25,7 @@
 
 .section-header .section-header__desc {
   margin: 24px 0 32px 0;
-  width: 558px;
+  width: fit-content;
   text-align: center;
 }
 
@@ -66,7 +66,7 @@
 }
 
 .section-what-will-you-get .section-what-will-you-get__title-wrapper .desc {
-  width: 526px;
+  width: fit-content;
   margin-top: 32px;
 }
 
@@ -347,4 +347,151 @@
   right: 0;
   top: -44px;
 }
+
+@media only screen and (min-width: 1024px) {
+  .desktop-none {
+    display: none;
+  }
+}
 /* Partner With Us sECTION */
+@media only screen and (max-width: 1024px) {
+  .mobile-none {
+    display: none;
+  }
+
+  .section .container {
+    max-width: 1336px;
+    padding: 0 30px;
+    margin: auto;
+  }
+  .section-header .section-header__heading {
+    font-size: 48px;
+    line-height: 77px;
+    text-align: center;
+  }
+  .section-what-will-you-get .will-get-boxes {
+    position: absolute;
+    bottom: -280px;
+    max-width: 100%;
+    height: 460px;
+    box-shadow: 0px 38px 108px rgba(0, 0, 0, 0.04);
+    border-radius: 40px 0px 55px;
+    background: white;
+    padding: 40px 50px;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+  }
+  .section-should-choose {
+    margin-top: 214px;
+    padding: 8%;
+    position: relative;
+  }
+  .section-should-choose .container {
+    padding: 0 0px;
+  }
+  .section-should-choose::before {
+    content: '';
+    position: absolute;
+    display: block;
+    inset: 0;
+    height: 1400px;
+    background: var(--primary-light);
+    z-index: -1;
+  }
+  .section-should-choose .should-choose-header__title {
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    width: 100%;
+  }
+  .section-should-choose .should-choose-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .section-should-choose .should-choose-header__hero img {
+    position: relative;
+    top: 45px;
+    right: 0px;
+    z-index: -1;
+  }
+
+  .section-should-choose .should-choose-header__hero {
+    position: relative;
+    height: 540px;
+  }
+  .section-should-choose .should-choose-list-wrapper {
+    background: #ffffff;
+    box-shadow: 0px 29px 152px rgba(0, 0, 0, 0.03);
+    border-radius: 25px;
+    padding: 60px 67px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 68px;
+    row-gap: 50px;
+    z-index: 2;
+    grid-auto-flow: row;
+  }
+
+  .section-partner-with-us .container {
+    background: white;
+    box-shadow: 0px 29px 152px rgba(0, 0, 0, 0.03);
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+    height: 1200px;
+    position: relative;
+    flex-direction: column;
+    text-align: left;
+  }
+  .section-partner-with-us {
+    position: relative;
+    margin: 140px 24px 0 24px;
+    width: auto;
+  }
+
+  .section-partner-with-us .section-partner-with-us__title-wrapper .desc {
+    width: fit-content;
+    margin: 32px 0;
+  }
+
+  .section-partner-with-us .hero {
+    position: relative;
+    right: 0px;
+    margin-top: 100px;
+  }
+
+  .section-how-it-works .how-it-works {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    flex-direction: column;
+  }
+  .section-what-will-you-get {
+    position: relative;
+    margin-top: 64px;
+  }
+  .section-how-it-works {
+    margin-top: 360px;
+    position: relative;
+  }
+  .image {
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  .section-what-will-you-get .section-what-will-you-get__title-wrapper .desc {
+    width: fit-content;
+    margin-top: 0px;
+  }
+
+  .section-what-will-you-get .section-what-will-you-get__title-wrapper .title {
+    font-size: 36px;
+    line-height: 72px;
+    margin-top: 20px;
+  }
+}

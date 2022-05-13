@@ -100,3 +100,32 @@
   bottom: 52px;
   left: 126px;
 }
+@media only screen and (min-width: 1024px) {
+  .desktop-none {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .section-news-event .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 41px;
+    row-gap: 60px;
+    display: flex;
+    flex-direction: column;
+  }
+  .section .container {
+    max-width: 1336px;
+    padding: 0 30px;
+    margin: auto;
+  }
+  .image {
+    margin-top: 24px;
+    width: 40%;
+  }
+
+  .mobile-none {
+    display: none;
+  }
+}

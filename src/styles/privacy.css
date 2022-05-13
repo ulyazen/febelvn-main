@@ -149,3 +149,53 @@
   top: -44px;
 }
 /* Partner With Us sECTION */
+
+@media only screen and (max-width: 1024px) {
+  .section-content .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    text-align: center;
+  }
+
+  .section-partner-with-us .container {
+    background: white;
+    box-shadow: 0px 29px 152px rgba(0, 0, 0, 0.03);
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+    height: 1200px;
+    position: relative;
+    flex-direction: column;
+    text-align: left;
+  }
+  .section-partner-with-us {
+    position: relative;
+    margin: 140px 24px 0 24px;
+    width: auto;
+  }
+
+  .section-header .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    text-align: center;
+  }
+
+  .section-partner-with-us .section-partner-with-us__title-wrapper .desc {
+    width: fit-content;
+    margin: 32px 0;
+  }
+
+  .section-partner-with-us .hero {
+    position: relative;
+    right: 0px;
+    margin-top: 100px;
+  }
+}

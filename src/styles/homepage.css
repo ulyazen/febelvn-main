@@ -276,7 +276,7 @@
   top: 0;
 }
 .hero {
-  width: 100%;
+  max-width: 100%;
 }
 
 /* Section Testimonial */
@@ -287,6 +287,9 @@
 
 /* Faq Section */
 @media only screen and (max-width: 1024px) {
+  .section-products {
+    display: none;
+  }
   .section .container {
     max-width: 1336px;
     padding: 0 30px;
@@ -380,21 +383,21 @@
   .section-testimonials {
     display: block;
     position: relative;
-    margin-top: 230px;
+    margin-top: 64px;
   }
 
   .section-testimonials .section-testimonials__title {
-    font-size: 60px;
+    font-size: 36px;
     line-height: 72px;
+    text-align: center;
   }
-
   .section-testimonials .swiper {
     margin-top: 54px;
     box-shadow: 0px 22px 52px rgba(255, 212, 228, 0.25);
     border-radius: 200px 200px 10px 10px;
     background: var(--primary);
     height: 400px;
-    overflow: visible;
+    overflow: hidden;
     position: relative;
     max-width: 400px;
   }
@@ -527,5 +530,8 @@
   .section-testimonials .swiper .swiper-button-prev::after,
   .section-testimonials .swiper .swiper-button-next::after {
     font-size: 24px;
+  }
+  .mt-image {
+    margin-top: 56px;
   }
 }
