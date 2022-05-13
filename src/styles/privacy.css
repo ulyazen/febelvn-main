@@ -26,7 +26,7 @@
 
 .section-header .section-header__desc {
   margin: 24px 0 32px 0;
-  width: 558px;
+  width: fit-content;
   text-align: center;
 }
 
@@ -74,7 +74,7 @@
 
 .section-content .section-content__officer {
   margin: 0px 0 10px 0;
-  width: 558px;
+  width: fit-content;
   text-align: center;
 }
 
@@ -120,7 +120,7 @@
 }
 
 .section-partner-with-us .section-partner-with-us__title-wrapper .desc {
-  width: 606px;
+  width: fit-content;
   margin: 32px 0;
 }
 
@@ -151,6 +151,9 @@
 /* Partner With Us sECTION */
 
 @media only screen and (max-width: 1024px) {
+  .mobile-none {
+    display: none;
+  }
   .section-content .container {
     display: flex;
     flex-direction: column;
