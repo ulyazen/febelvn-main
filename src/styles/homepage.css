@@ -448,11 +448,10 @@
   .section-testimonials .swiper .testimonial-profile {
     border-radius: 200px;
     width: max-content;
-    height: 590px;
+    height: 415px;
     padding: 20px;
-    top: -110px;
+    top: -32px;
     position: absolute;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -461,10 +460,9 @@
   .section-testimonials .swiper .testimonial-profile .testimonial-profile__img {
     border-radius: 200px 200px 14px 156.5px;
     object-fit: cover;
-    width: 60%;
+    width: 46%;
     height: 90%;
   }
-
   .section-testimonials
     .swiper
     .testimonial-profile

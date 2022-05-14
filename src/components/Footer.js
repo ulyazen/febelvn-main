@@ -47,11 +47,14 @@ class Footer extends HTMLElement {
               <li>Subscribe to get special offers,
               free giveaway, and once-in-a lifetime deals.</li>
             </ul>
+
+          <form action="mailto:hello@febelvn.in">
             <div class="input-group">
             <input class="input input-solid" placeholder="Enter your email"/>
               <i class="far fa-envelope input-icons"></i>
 
             </div>
+            </form>
           </div>
         </div>
 
