@@ -18,8 +18,12 @@ class Footer extends HTMLElement {
             </ul>
           </div>
             <ul class="footer_socmed">
-              <li><a href="/"><i class="fab fa-instagram"></i></a></li>
-              <li><a href="/"><i class="fa fa-facebook-square"></i></a></li>
+              <li><a href="https://www.instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="https://www.facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"><i class="fa fa-facebook-square"></i></a></li>
             </ul>
           </div>
 
